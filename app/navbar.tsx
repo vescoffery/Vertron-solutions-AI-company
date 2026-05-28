@@ -55,8 +55,3 @@ export default function SectionHeader({
   )
 }
 
-
----
-
-Next step:  
-Once you've added these two component files, reply with “Next” and I’ll give you the final README.md.
