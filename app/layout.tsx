@@ -7,11 +7,6 @@ export const metadata: Metadata = {
   icons: {
     icon: '/favicon.ico',
   },
-  openGraph: {
-    title: 'Vertron Solutions • Enterprise AI Workforces',
-    description: 'Build your own AI workforce. We design and operate autonomous agent systems that run complex business operations with precision.',
-    images: [{ url: '/og-image.png' }],
-  },
 }
 
 export default function RootLayout({
@@ -27,5 +22,3 @@ export default function RootLayout({
     </html>
   )
 }
-
-
