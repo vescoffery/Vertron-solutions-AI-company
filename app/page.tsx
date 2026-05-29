@@ -70,8 +70,7 @@ export default function VertronSite() {
             <button onClick={() => scrollTo('contact')} className="px-10 py-5 bg-white text-[#0A0A0F] font-semibold rounded-3xl text-xl hover:bg-[#67e8f9] transition-all flex items-center justify-center gap-x-3 group">
               Book Strategy Call <ArrowRight className="group-hover:translate-x-1 transition" />
             </button>
- (1/3)
-<button onClick={() => scrollTo('capabilities')} className="px-10 py-5 border border-white/25 hover:bg-white/5 font-semibold rounded-3xl text-xl transition-all">
+            <button onClick={() => scrollTo('capabilities')} className="px-10 py-5 border border-white/25 hover:bg-white/5 font-semibold rounded-3xl text-xl transition-all">
               See What We Build
             </button>
           </div>
@@ -144,9 +143,7 @@ export default function VertronSite() {
             { num: "01", title: "Discovery & Architecture", desc: "Deep operational analysis and AI workforce design." },
             { num: "02", title: "Agent Design & Testing", desc: "Specialized agents built and validated against real workflows." },
             { num: "03", title: "Production Deployment", desc: "Hermes Gateway infrastructure with monitoring and reliability." },
- (2/3)
-
-{ num: "04", title: "Continuous Evolution", desc: "Ongoing optimization and capability expansion." }
+      { num: "04", title: "Continuous Evolution", desc: "Ongoing optimization and capability expansion." }
           ].map((step, i) => (
             <div key={i}>
               <div className="font-mono text-6xl font-bold text-white/10">{step.num}</div>
@@ -210,7 +207,3 @@ export default function VertronSite() {
     </div>
   )
 }
-
-
-
-
