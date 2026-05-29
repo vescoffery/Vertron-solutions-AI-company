@@ -23,16 +23,16 @@ export default function VertronSite() {
   }
 
   return (
-    <div className="bg-[#0A0A0F] text-white">
-      {/* Navbar */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-[#0A0A0F]/95 backdrop-blur-xl border-b border-white/10">
-        <div className="max-w-screen-2xl mx-auto px-8 h-20 flex items-center justify-between">
-          <div className="flex items-center gap-x-3">
-            <div className="w-9 h-9 bg-white rounded-2xl flex items-center justify-center">
-              <span className="text-[#0A0A0F] font-bold text-3xl tracking-[-3px]">V</span>
-            </div>
-            <span className="font-semibold text-2xl tracking-tighter">Vertron</span>
+  <div className="bg-[#0A0A0F] text-white">
+    {/* Navbar */}
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-[#0A0A0F]/95 backdrop-blur-xl border-b border-white/10">
+      <div className="max-w-screen-2xl mx-auto px-8 h-20 flex items-center justify-between">
+        <div className="flex items-center gap-x-3">
+          <div className="w-9 h-9 bg-white rounded-2xl flex items-center justify-center">
+            <span className="text-[#0A0A0F] font-bold text-3xl tracking-[-3px]">V</span>
           </div>
+          <span className="font-semibold text-2xl tracking-tighter">Vertron</span>
+        </div>
 
           <div className="hidden md:flex items-center gap-x-10 text-sm font-medium">
             <button onClick={() => scrollTo('capabilities')} className="hover:text-[#67e8f9] transition-colors">Capabilities</button>
